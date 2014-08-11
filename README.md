@@ -4,7 +4,7 @@ Personal-use Vagrantfile for Ubuntu-Node.js(-Nginx) environments with VirtualBox
 ## Usage
 ### VirtualBox
 ```bash
-vagrant up
+$ vagrant up
 ```
 
 ### AWS provider
@@ -18,7 +18,7 @@ In AWS provider configurations, change
 to appropriate values, and then
 
 ```bash
-vagrant up
+$ vagrant up --provider=aws
 ```
 
 ## License
